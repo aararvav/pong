@@ -33,8 +33,8 @@ def main():
 
     # Ball
     ball = pygame.Rect(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2, BALL_SIZE, BALL_SIZE)
-    ball_speed_x = random.choice([-0.3, 0.3])
-    ball_speed_y = random.choice([-0.3, 0.3])
+    ball_speed_x = random.choice([-0.45, 0.45])
+    ball_speed_y = random.choice([-0.45, 0.45])
 
     # Scores
     score_1 = 0
@@ -82,16 +82,16 @@ def main():
             score_sound.play()
             started = False
             ball.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
-            ball_speed_x = random.choice([-0.3, 0.3])
-            ball_speed_y = random.choice([-0.3, 0.3])
+            ball_speed_x = random.choice([-0.45, 0.45])
+            ball_speed_y = random.choice([-0.45, 0.45])
 
         if ball.right >= SCREEN_WIDTH:
             score_1 += 1
             score_sound.play()
             started = False
             ball.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
-            ball_speed_x = random.choice([-0.3, 0.3])
-            ball_speed_y = random.choice([-0.3, 0.3])
+            ball_speed_x = random.choice([-0.45, 0.45])
+            ball_speed_y = random.choice([-0.45, 0.45])
 
         # Check win condition
         if score_1 == WINNING_SCORE or score_2 == WINNING_SCORE:
