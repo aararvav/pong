@@ -79,4 +79,4 @@ Press `Space` to start.
 
 ## 🙌 Credits
 
-Made with ❤️ by [https://github.com/aararvav](aararvav)
+Made with ❤️ by [aararvav](https://github.com/aararvav)
