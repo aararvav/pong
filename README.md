@@ -1,7 +1,7 @@
 # 🏓 Pong!!!
 
 A classic Pong game made with Python and Pygame!  
-Supports both **Single-player (with AI)** and **2-player** modes:
+Supports both **Single-player** and **2-player** modes:
 - Score tracking
 - Mode selector screen
 - AI difficulty levels (Easy, Medium, Hard)
