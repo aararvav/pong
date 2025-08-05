@@ -1,13 +1,14 @@
 # 🏓 Pong!!!
 
 A classic Pong game made with Python and Pygame!  
-Currently supports **2-player mode** with:
+Supports both **Single-player** and **2-player** modes:
 - Score tracking
-- Win screen
+- Mode selector screen
+- AI difficulty levels (Easy, Medium, Hard)
+- Gradually increasing ball speed per difficulty
 - Sound effects (bounce, score)
 - Paddle boundary control
-
-🎮 **Single-player mode with AI** coming soon!
+- Win screen
 
 ---
 
@@ -19,12 +20,14 @@ Currently supports **2-player mode** with:
 
 ## 🚀 Features
 
+- 🎮 Single-player with AI (Easy / Medium / Hard)
 - 🎮 2-player controls (W/S and UP/DOWN)
+- 🧠 Mode selector screen (choose between single or multiplayer)
 - 🔊 Sound effects on bounce and score
-- 🧠 Paddle boundaries (no more flying off-screen)
-- 🏆 Win message when a player reaches 5 points
+- 📈 Gradually increasing ball speed (based on difficulty)
+- 🧱 Paddle boundaries (no flying off-screen)
+- 🏆 Win message when a player reaches 6 points
 - ⏳ Smooth gameplay with `delta_time` for frame consistency
-- 💡 Future: Mode selection (Single/Multiplayer) and AI levels
 
 ---
 
@@ -56,17 +59,17 @@ python pong.py
 | P1     | `W`     | `S`       |
 | P2     | `↑`     | `↓`       |
 
-Press `Space` to start.
+- Press `Space` to start
+- Use `↑` / `↓` keys to navigate menus
+- Press `Enter` to confirm selection
 
 ---
 
 ## 🧠 Planned Features
 
-- [ ] Single-player mode with AI (Easy, Medium, Hard)
-- [ ] Mode selector screen (Single vs Multiplayer)
 - [ ] Restart after win
-- [ ] Pause / Resume
-- [ ] Power-ups / Speed increase
+- [ ] Pause / Resume functionality
+- [ ] Power-ups / Extra challenges
 
 ---
 
